@@ -1,7 +1,7 @@
 # Bind TCP Shell
 The programm will listen on port 33341 for inbound connections. <br>
 When it receives a connection, it will make a execve syscall to get a shell on the remote machine and redirect to descriptors of the programm to our socket <br>
-To change the port, change the constant PORT on tcp_shell.h file. <br>
+To change the port, change the constant PORT on bind_shell.h file. <br>
 
 # How to execute
 make <br>
