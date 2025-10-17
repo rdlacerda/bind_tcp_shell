@@ -4,7 +4,7 @@ When it receives a connection, it will make a execve syscall to get a shell on t
 
 # How to execute
 make <br>
-./bind_shell -p 'tcp_port' -q 'queue_length <br>
+./bind_shell -p 'tcp_port' -q 'queue_length' <br>
 Where tcp_port is the number of the TCP port in which we want to receive connections, and queue_length is the queue_length of the incoming connections.
 
 # Example on remote machine
