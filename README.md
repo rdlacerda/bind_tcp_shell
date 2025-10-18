@@ -1,5 +1,5 @@
 # Bind TCP Shell
-The programm will listen on a command-line TCP port for inbound connections. <br>
+The program will listen on a command-line argument TCP port for inbound connections. <br>
 When it receives a connection, it will make a execve syscall to get a shell on the remote machine and redirect to descriptors of the programm to our socket <br>
 
 # How to execute
